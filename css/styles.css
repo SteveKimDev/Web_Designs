@@ -33,11 +33,25 @@ h6 {
 .navbar-brand img {
 	width: 48px;
 	margin-top: -3px;
-	margin-left: 105px;
 }
 
-.navbar-nav {
+@media (min-width: 769px) {
+    .navbar-brand img {
+	margin-left: 105px;
+	}
+	.navbar-nav {
 	margin-right: 85px;
+	}
+}
+
+.navbar-toggle {
+	margin-top: 20px;
+	background-color: #fff;
+}
+
+.navbar-collapse {
+	background-color: #222222;
+	border: none;
 }
 
 .navbar-nav > li > a {
@@ -258,7 +272,6 @@ section h3.section-subheading {
 	border-radius: 0;
     text-transform: uppercase;
     font-weight: 700;
-	width: 150px;
 }
 
 .btn-primary:hover,
