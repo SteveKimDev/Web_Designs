@@ -319,6 +319,10 @@ body {
 	padding-bottom: 50px;
 }
 
+#footer-logo {
+	margin-bottom: 25px;
+}
+
 .custom-icon {
   color: #fff;
   background: #222222;
